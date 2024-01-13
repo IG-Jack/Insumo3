@@ -1,0 +1,9 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let color of colores" size="4">
+        <app-color-list [background]="color"></app-color-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
